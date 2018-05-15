@@ -1,4 +1,6 @@
 #include <iostream>
+#include <cstdlib>
+#include <conio.h>
 
 using namespace std;
 
@@ -25,9 +27,9 @@ int main()
 		Input();
 		Logic();
 	}
-		system("cls");
-		cout << "GAME OVER!" << endl;
-		return 0;
+	system("cls");
+	cout << "GAME OVER!" << endl;
+	return 0;
 }
 
 void Setup()
@@ -86,8 +88,8 @@ void Draw()
 	}
 	for (int i = 0; i < width + 1; i++)
 	{
-		for (int p = 0; p )
-		cout << "#";
+		for (int p = 0; p;)
+			cout << "#";
 	}
 	cout << endl;
 	cout << "Rezultatas: " << score << "." << endl;
