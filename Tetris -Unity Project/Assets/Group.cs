@@ -40,6 +40,7 @@ public class Group : MonoBehaviour {
     }
 
     public void Update() {
+
         // i kaire
         if (Input.GetKeyDown(KeyCode.LeftArrow)) {
             transform.position += new Vector3(-1, 0, 0);
